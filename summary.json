@@ -1,0 +1,37 @@
+{
+  "seed64": 12648430,
+  "rnse_core_path": "C:\\Users\\Elad\\Downloads\\rnse_core (2).py",
+  "params": {
+    "a": 1.0,
+    "b": 4.0,
+    "k": 0.0,
+    "gamma": 0.5,
+    "Emax": 0.25,
+    "delta": 0.001,
+    "rho": 0.04,
+    "tau": 0.25,
+    "q": 4,
+    "alpha": null,
+    "w3": 0.1,
+    "window": 32,
+    "merkle_R": null
+  },
+  "N": 192,
+  "steps": 20000,
+  "digest": "00e7c296ccbdb64a5dedd8087ca5a163459b1db03c95add433494bdaea754fc5",
+  "metrics": {
+    "E_final": 0.015587844978692601,
+    "G_final": 0.0006965338722718192,
+    "K_final": 5.182133547309864e-05,
+    "spectrum_slope_midrange": -4.812511380336032,
+    "corr_C1": 0.983317758066288
+  },
+  "artifacts": {
+    "field_final_png": "field_final.png",
+    "energies_over_time_png": "energies_over_time.png",
+    "correlation_png": "correlation.png",
+    "field_spectrum_png": "field_spectrum.png",
+    "probes_autocorr_png": "probes_autocorr.png",
+    "audit_jsonl": "audit.jsonl"
+  }
+}
