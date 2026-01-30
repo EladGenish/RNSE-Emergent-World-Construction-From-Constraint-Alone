@@ -1,0 +1,19 @@
+RNSE WORLD HEARTBEAT TESTS
+==========================
+
+Frames dir: .\frames
+Frames loaded: 3000
+Resolution: 192 x 192
+
+Cross-corr best lag (center relative to edge): -52 ticks, corr=0.595367
+Rolling best-lag mean (center-edge): 2.793 ticks (n=58)
+
+Permutation control (center shuffled in time):
+  best_true=0.595367
+  null_mean=0.020115, null_std=0.016213
+  p_value(one-sided)=0.0000
+
+Interpretation tips:
+- If corr is near 0 and p is large (e.g. >0.05), no strong global heartbeat evidence.
+- If corr is clearly > null and p is small, the timing is real.
+- Phase-lag map should show a smooth gradient inward if there are propagating pulses.
